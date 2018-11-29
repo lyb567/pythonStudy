@@ -54,8 +54,8 @@ class People(object):
 
 class Student(People):
 
-    def __init__(self, name='studier'):
-        self.__name = name
+    def __init__(self):
+        People.__init__(self, name='studier')
         pass
 
 
@@ -63,4 +63,4 @@ p = People()
 s = Student()
 print(s.get_name())
 
-p.speak()
+s.speak()
