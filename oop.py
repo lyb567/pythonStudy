@@ -64,3 +64,4 @@ s = Student()
 print(s.get_name())
 
 s.speak()
+p.speak()
