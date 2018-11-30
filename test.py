@@ -17,3 +17,5 @@ print('*'*20)
 print(a.__dict__)
 print('*'*20)
 print(b.__dict__)
+
+print("b1")
